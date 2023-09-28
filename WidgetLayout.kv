@@ -3,145 +3,93 @@ LayoutAssignment
 <LayoutAssignment>:
     orientation: "vertical"
     Label:
+        size_hint: 1,.3
         text: "Layout Assignment"
     BoxLayout:
-        orientation: "vertical"
-        Button:
-            text: "replace Me With Another Layout"
-        Button:
-            text: "replace Me With Another Layout"
-        Button:
-            text: "replace Me With Another Layout"
+        orientation: "horizontal"
+        BoxLayout:
+            spacing: "12dp"
+            padding: [10,10]
+            size_hint: .7,1
+            orientation: "horizontal"
+            Button:
+                background_color: 0,1,0
+                text: "Button A"
+            Button:
+                background_color: 0,1,0
+                text: "Button B"
+        BoxLayout:
+            padding: [10,10]
+            spacing: "12dp"
+            orientation: "vertical"
+            Button:
+                background_color: .5,0,1
+                size_hint: 1, 1.3
+                text: "Button C"
+            Button:
+                background_color: .5,0,1
+                text: "Button D"
+            Button:
+                background_color: .5,0,1
+                size_hint: 1, .8
+                text: "Button D"
+        GridLayout:
 
-<ScrollViewExample@ScrollView>:
-    StackLayoutExample:
-        size_hint: 1, None
-        height: self.minimum_height
-
-<GridlayoutExample>:
-    # define number of rows and columns
-    rows: 2
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-    Button:
-        text: "A"
-
-
-
-
-
-
-<StackLayoutExample>:
-    #(lr)left-right, rl(right-left)
-    #tb(top - bottom), bt(bottom-top)
-    #orientation: "rl-bt"
-    #Button:
-     #   text: "A"
-      #  size_hint: .2, .2
-    #Button:
-     #   text: "B"
-  #  size_hint: .2, .2
-   # Button:
-    #    text: "C"
-        size_hint: .4, .2
-   # Button:
-    #    text: "D"
-     #   size_hint: .2, .2
-    #Button:
-     #   text: "E"
-      #  size_hint: .2, .2
-    #Button:
-     #   text: "F"
-      #  size_hint: .2, .2
-    #Button:
-     #   text: "G"
-      #  size_hint: .2, .2
-    #Button:
-     #   text: "H"
-      #  size_hint: .2, .2
-
-
-
-<BoxLayoutExample>:
-    orientation: "vertical"
-    spacing: "20dp"
-    Button:
-        text: "Button A"
-        size_hint: .5, 2
-        # horizontal postions: "x" (left), "center_x", "right"
-        # vertical positions: "y"(bottom), "center_y","top"
-        pos_hint: {"center_x":.5}
-    Button:
-        text: "Button B"
-    BoxLayout:
-        Button:
-            text: "Button F"
-        Label:
-            text: "Hello Class"
-        Button:
-            text: "Button G"
-    Button:
-        text: "Button D"
-    Button:
-        text: "Button E"
-
-
-
-
-
-#<StackLayoutExample>:
-    # (lr)left-right, rl(right-left)
-    # tb(top-bottom), bt(bottom-top)
-    #orientation: "rl-bt"
-    #Button:
-        #text: "A"
-        #size_hint: .2, .2
-    #Button:
-        #text: "A"
-        #size_hint: .2, .2
-    #Button:
-        #text: "A"
-        #size_hint: .2, .2
-
-
-
-
-#<BoxLayoutExample>:
-   # orientation: "vertical"
-  #  spacing: "20dp"
-   # Button:
-    #    text: "Button A"
-     #   size_hint: .5, 2
-      #  #horizontal positions: "x"(left), "center_x","right"
-        # vertical positions: "y"(bottom), "center_y","top
-       # pos_hint: {"x":.25}
-    #Button:
-        #text: "Button B"
-    #BoxLayout:
-     #   Button:
-      #      text: "Button F"
-       # Label:
-        #    text: "Hello Class"
-        #Button:
-         #   text: "Button G"
-        #Button:
-       # text: "Button D"
-
-
-
-
-
-
+            padding: [10,10]
+            spacing: "12dp"
+            rows: 6
+            Button:
+                background_color: 1,0,0
+                text: "1"
+            Button:
+                background_color: 1,0,0
+                text: "2"
+            Button:
+                background_color: 1,0,0
+                text: "3"
+            Button:
+                background_color: 1,0,0
+                text: "4"
+            Button:
+                background_color: 1,0,0
+                text: "5"
+            Button:
+                background_color: 1,0,0
+                text: "6"
+            Button:
+                background_color: 1,0,0
+                text: "7"
+            Button:
+                background_color: 1,0,0
+                text: "8"
+            Button:
+                background_color: 1,0,0
+                text: "9"
+            Button:
+                background_color: 1,0,0
+                text: "10"
+            Button:
+                background_color: 1,0,0
+                text: "11"
+            Button:
+                background_color: 1,0,0
+                text: "12"
+            Button:
+                background_color: 1,0,0
+                text: "13"
+            Button:
+                background_color: 1,0,0
+                text: "14"
+            Button:
+                background_color: 1,0,0
+                text: "15"
+            Button:
+                background_color: 1,0,0
+                text: "16"
+            Button:
+                background_color: 1,0,0
+                text: "17"
+            Button:
+                background_color: 1,0,0
+                text: "18"
 
